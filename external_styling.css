@@ -1,0 +1,51 @@
+.vyshu{
+	font-display: inherit;
+	font-size: 25px;
+	font-family: monospace;
+}
+p{
+	font-family: monospace;
+	font-size: 40px;
+	background-color: yellow;
+}
+div{
+	height: 100px;
+	width: 300px;
+	background-color: blueviolet;
+}
+<!--UNIVERSAL SELECTOR-->
+*{
+	font size: 40px;
+	font-family: cursive;
+	color: green;
+}
+input[type]{
+	color: yellow;
+}
+input[type="password"]{
+	color: hotpink;
+}
+input[type="email"]{
+	color: orangered;
+}
+a[href]{
+	background-color: whitesmoke;
+}
+
+a:hover{
+	color: blueviolet;
+	background-color: black;
+	font-size: 50px;
+}
+a:visited{
+	color: revert-layer;
+}
+a:active{
+	color: yellowgreen;
+}
+a:link{
+	color: hotpink;
+}
+div:hover{
+	background-color: hotpink;
+}
